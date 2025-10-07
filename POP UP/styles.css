@@ -1,0 +1,65 @@
+body{
+    display: block;
+    width: 1920px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.popUp{
+    height:815px;
+    width: 1160px;
+}
+
+.popUp-img{
+    height:387px;
+    width: 1160px;
+}
+
+.popUp-title{
+    height: 132px;
+    width:638px ;
+    color: #F58021;
+    font-family: "Montserrat", sans-serif;
+    font-size: 54px;
+    font-weight: 600px;
+    text-align: center;
+    margin: 20px 0 0 241px;
+}
+
+.popUp-text{
+    height: 81px;
+    width:570px ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center;
+    margin: 30px 0 0 295px;
+}
+
+.popUp-bottom{
+    height:65px ;
+    width:1000px ;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 80px;
+}
+
+.popUp-bottom-money{
+    width: 120px;
+    height: 65px;
+    background: #00A092;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popUp-bottom-more{
+    width: 200px;
+    height: 65px;
+    background: #00A092;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,381 @@
+body{
+    display: block;
+    width: 1920px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.orange-bg {
+    background:#F58021;
+    width: 1920px;
+}
+
+.header{
+    width: 1920px;
+    height:110px ;
+    display: flex;
+}
+
+.header-logo{
+    margin: 30px 0 0 260px ;
+}
+
+a{
+    color: #000000;
+    text-decoration: none ;
+    font-size: 18px;
+}
+
+.header-nav{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    gap: 30px;
+    display: flex;
+    margin: 42px 0 0 500px;
+}
+
+.header-nav-map{
+    color: #00A092;
+}
+
+.header-icons{
+    height:42px ;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0 0 130px;
+}
+
+.title{
+    height:131px ;
+    width: 601px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 54px;
+    font-weight: 600px;
+    margin: 40px 0 0 650px;
+    text-align: center;
+    color: #20113D;
+}
+
+.map{
+    margin: 70px 0 0 254px;
+    position: relative;
+}
+
+.map-img{
+    position: absolute;
+    z-index: 1;
+}
+
+.map-eagle{
+    height:144px ;
+    width:100px ;
+    position: absolute;
+    z-index: 2;
+    margin:384px 0 0 160px ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.map-eagle-img{
+    height: 10px;
+}
+
+.map-eagle-img:hover{
+    height: 144px;
+    width: 100px;
+}
+
+.map-eagle:hover{
+    position: absolute;
+    z-index: 2;
+    margin: 384px 0 0 160px;
+    transition: 0,5s;
+}
+
+.map-alligator{
+    height:144px ;
+    width:100px ;
+    position: absolute;
+    z-index: 2;
+    margin:397px 0 0 285px ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.map-alligator:hover{
+    position: absolute;
+    z-index: 2;
+    margin: 397px 0 0 285px;
+    transition: 0,5s;
+}
+
+.map-alligator-img{
+    height: 10px;
+}
+
+.map-alligator-img:hover{
+    height: 144px;
+    width: 100px;
+}
+
+.map-lion{
+    height:144px ;
+    width:100px ;
+    position: absolute;
+    z-index: 2;
+    margin:444px 0 0 570px ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.map-lion:hover{
+    position: absolute;
+    z-index: 2;
+    margin: 444px 0 0 570px;
+    transition: 0,5s;
+}
+
+.map-lion-img{
+    height: 10px;
+}
+
+.map-lion-img:hover{
+    height: 144px;
+    width: 100px;
+}
+
+.map-gorilla{
+    height:144px ;
+    width:100px ;
+    position: absolute;
+    z-index: 2;
+    margin:467px 0 0 686px ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.map-gorilla:hover{
+    position: absolute;
+    z-index: 2;
+    margin: 467px 0 0 686px;
+    transition: 0,5s;
+}
+
+.map-gorilla-img{
+    height: 10px;
+}
+
+.map-gorilla-img:hover{
+    height: 144px;
+    width: 100px;
+}
+
+.map-lemur{
+    height:144px ;
+    width:100px ;
+    position: absolute;
+    z-index: 2;
+    margin:587px 0 0 789px ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.map-lemur:hover{
+    position: absolute;
+    z-index: 2;
+    margin: 587px 0 0 789px;
+    transition: 0,5s;
+}
+
+.map-lemur-img{
+    height: 10px;
+}
+
+.map-lemur-img:hover{
+    height: 144px;
+    width: 100px;
+}
+
+.map-panda{
+    height:144px ;
+    width:100px ;
+    position: absolute;
+    z-index: 2;
+    margin:340px 0 0 946px ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.map-panda:hover{
+    position: absolute;
+    z-index: 2;
+    margin: 340px 0 0 946px;
+    transition: 0,5s;
+}
+
+.map-panda-img{
+    height: 10px;
+}
+
+.map-panda-img:hover{
+    height: 144px;
+    width: 100px;
+}
+
+.map-tiger{
+    height:144px ;
+    width:100px ;
+    position: absolute;
+    z-index: 2;
+    margin:498px 0 0 1009px ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.map-tiger:hover{
+    position: absolute;
+    z-index: 2;
+    margin: 498px 0 0 1009px;
+    transition: 0,5s;
+}
+
+.map-tiger-img{
+    height: 10px;
+}
+
+.map-tiger-img:hover{
+    height: 144px;
+    width: 100px;
+}
+
+.map-koala{
+    height:144px ;
+    width:100px ;
+    position: absolute;
+    z-index: 2;
+    margin:612px 0 0 1140px ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.map-koala:hover{
+    position: absolute;
+    z-index: 2;
+    margin: 612px 0 0 1140px;
+    transition: 0,5s;
+}
+
+.map-koala-img{
+    height: 10px;
+}
+
+.map-koala-img:hover{
+    height: 144px;
+    width: 100px;
+}
+
+.footer{
+    height: 329px;
+    width: 1920px;
+    background: #20113D;
+    position: relative;
+    margin: 1066px 0 0 0;
+}
+
+.footer-top{
+    width: 1400px;
+    display: flex;
+    margin: 82px 260px 0 260px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.footer-top-logo{
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    width: 414px;
+}
+
+.footer-top-nav{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    display: flex;
+    justify-content: space-between;
+    height:27px ;
+    width: 426px;
+    filter: invert();
+    align-items: center;
+}
+
+.footer-top-bottom{
+    height: 74px ;
+    width: 359px;
+    border: 1px solid #FFFFFF;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.footer-top-bottom-text {
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.footer-top-bottom-arrow{
+    width: 40px;
+    height: 30px;
+    margin: 7px 0 0 15px;
+}
+
+.footer-line{
+    height: 2px;
+    width: 1400px;
+    margin: 214px 0 0 260px;
+    position: absolute;
+    z-index: 2;
+    background: #FFFFFF;
+}
+
+.footer-button{
+    height: 42px ;
+    width: 1400px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    margin: 251px 0 0 260px;
+}
+
+.footer-button-info{
+    width:448px ;
+    height:27px ;
+    display: flex;
+    justify-content: space-between;
+    filter: invert();
+}
+
+.footer-button-social{
+    display: flex;
+    width:200px ;
+    height: 42px;
+    justify-content: space-between;
+}
+
