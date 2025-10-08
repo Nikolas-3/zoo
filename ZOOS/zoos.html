@@ -17,11 +17,11 @@
                     <img class="header-logo-img" src="images/logo.png">
                 </div>
                 <div class="header-nav">
-                    <a href="../ABOUT/zoo.html"> ABOUT</a>
-                    <a href="../MAP/map.html"> MAP</a>
+                    <a class="header-nav-link" href="../ABOUT/zoo.html"> ABOUT</a>
+                    <a class="header-nav-link" href="../MAP/map.html"> MAP</a>
                     <a class="header-nav-zoos" href=""> ZOOS</a>
-                    <a href="../CONTACT US/contact us.html"> CONTACT US</a>
-                    <a href="../DESIGN/design.html"> DESIGN</a>
+                    <a class="header-nav-link" href="../CONTACT US/contact us.html"> CONTACT US</a>
+                    <a class="header-nav-link" href="../DESIGN/design.html"> DESIGN</a>
                 </div>
                 <div class="header-icons">
                      <div class="header-icons-social">
@@ -84,14 +84,16 @@
             <div class="live-title">
                 LIVE PANDA CAMS
             </div>
-            <div class="live-bottom">
-                <div class="live-bottom-text">
-                    DONATE NOW
-                </div>
-                <div class="live-bottom-arrow">
-                    <img class="live-bottom-arrow-img" src="images/arrow.png">
-                </div>
-            </div>
+            <a href="#popup" class="live-btn-link">
+                <button class="live-bottom">
+                    <div class="live-bottom-text">
+                        DONATE NOW
+                    </div>
+                    <div class="live-bottom-arrow">
+                        <img class="live-bottom-arrow-img" src="images/arrow.png">
+                    </div>
+                </button>
+            </a>
             <div class="live-video">
                 <img class="live-video-img" src="images/Youtube_player.png">
             </div>
@@ -131,10 +133,14 @@
                         Quick Donate
                     </div>
                     <div class="donation-content-button">
-                        <div class="donation-content-button-text">$ DONATION AMOUNT </div>
-                        <div class="donation-content-button-arrow">
-                            <img class="donation-content-button-arrow-img" src="images/arrow.png">
+                        <div class="donation-content-button-text">
+                            $ DONATION AMOUNT 
                         </div>
+                        <a href="#popup" class="donation-content-button-link">
+                            <button class="donation-content-button-arrow">
+                                <img class="donation-content-button-arrow-img" src="images/arrow.png">
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -235,10 +241,10 @@
                     </div>
                 </div>
                 <div class="footer-top-nav">
-                    <a href="ABOUT/ABOUT.html"> ABOUT</a>
-                    <a href="MAP/map.html"> MAP</a>
-                    <a href="ZOOS/zoos.html"> ZOOS</a>
-                    <a href="CONTACT US/contact us.html"> CONTACT US</a>
+                    <a class="header-nav-link" href="ABOUT/ABOUT.html"> ABOUT</a>
+                    <a class="header-nav-link" href="MAP/map.html"> MAP</a>
+                    <a class="header-nav-link" href="ZOOS/zoos.html"> ZOOS</a>
+                    <a class="header-nav-link" href="CONTACT US/contact us.html"> CONTACT US</a>
                 </div>
                 <div class="footer-top-bottom">
                     <div class="footer-top-bottom-text">
@@ -252,9 +258,9 @@
             <div class="footer-line"></div>
             <div class="footer-button">
                 <div class="footer-button-info">
-                    <a href="ABOUT/ABOUT.html"> © 2021 DinaK</a>
-                    <a href="MAP/map.html"> © Yem Digital</a>
-                    <a href="ZOOS/zoos.html"> © RSSchool</a>
+                    <a class="header-nav-link" href="ABOUT/ABOUT.html"> © 2021 DinaK</a>
+                    <a class="header-nav-link" href="MAP/map.html"> © Yem Digital</a>
+                    <a class="header-nav-link" href="ZOOS/zoos.html"> © RSSchool</a>
                 </div>
                 <div class="footer-button-social">
                     <div class="footer-button-social-icon">
@@ -265,6 +271,70 @@
                     </div>
                     <div class="footer-button-social-icon">
                         <img class="footer-button-social-icon-img" src="images/facebook.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="popup" class="popup">
+            <a href="#header" class="popup-area"></a>
+            <div class="popup-body">
+                <div class="popup-content">
+                    <a href="#header" class="popup-close">
+                        <button class="popup-close-bnt">
+                            <img class="popup-close-bnt-img" src="images/img_close.png">
+                        </button>
+                    </a>
+                    <div class="popup-header">
+                        <div class="header-text">
+                            MAKE YOUR DONATION
+                        </div>
+                    </div>
+                    <div class="popup-info">
+                        Donation Information:
+                    </div>
+                    <div class="popup-line"></div>
+                    <div class="popup-donation">
+                        <div class="donation-title">
+                            <span>*</span>Choose your donation amount:
+                        </div>
+                        <div class="btnSum">
+                            <button class="btnSum-btn">
+                                $10
+                            </button>
+                            <button class="btnSum-btn">
+                                $20
+                            </button>
+                            <button class="btnSum-btn">
+                                $30
+                            </button>
+                            <button class="btnSum-btn">
+                                $50
+                            </button>
+                            <button class="btnSum-btn">
+                                $80
+                            </button>
+                            <button class="btnSum-btn">
+                                $100
+                            </button>
+                        </div>
+                        <div class="btnOther">
+                            <button class="btnOther-btn">
+                                OTHER AMOUNT
+                            </button>
+                            <input class="btnOther-box">
+                        </div>
+                        <div class="btnPet">
+                            <button class="btnPet-btn">
+                                FOR SPECIAL PET
+                            </button>
+                            <input class="btnPet-box" placeholder="Choose your favourite ">
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" class="checkbox-btn">
+                            <div class="checkbox-text">
+                                Make this a monthly recurring gift
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

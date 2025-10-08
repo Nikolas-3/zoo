@@ -1,0 +1,153 @@
+body{
+    display: block;
+    width: 920px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.content{
+    width: 920px;
+}
+
+.header{
+    height: 135px;
+    background: #F58021;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    font-weight: 500px;
+    color: #FFFFFF;
+}
+
+.popup-info{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    margin: 50px 0 0 123px;
+}
+
+.line{
+    width: 920px;
+    border: 1px solid#000000;
+    margin: 10px 0 0 0;
+}
+
+.donation{
+    width: 680px;
+}
+
+span{
+    color: #00A092;
+}
+
+.donation-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    margin: 40px 0 0 120px;
+}
+
+.btnSum{
+    height: 65px;
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 120px;
+}
+
+.btnSum-btn{
+    border-radius: 5px;
+    width: 80px;
+    background: #00A092;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    opacity: 40%;
+    border: 0;
+}
+
+.btnSum-btn:active{
+    opacity: 100%;
+}
+
+.btnOther{
+    height:65px ;
+    width: 680px;
+    display: flex;
+    margin: 37px 0 0 120px;
+}
+
+.btnOther-btn{
+    width: 200px;
+    background: #00A092;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    opacity: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px 0 0 ;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btnOther-btn:active{
+    opacity: 100%;
+}
+
+.btnOther-box{
+    width: 200px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.btnPet{
+    display: flex;
+    justify-content: space-between;
+    width: 680px;
+    height: 65px;
+    margin: 40px 0 0 120px;
+}
+
+.btnPet-btn{
+    width: 200px;
+    background: #00A092;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    opacity: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btnPet-btn:active{
+    opacity: 100%;
+}
+
+.btnPet-box{
+    display: flex;
+    justify-content: center;
+    width: 440px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+}
+

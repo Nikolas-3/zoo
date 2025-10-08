@@ -8,6 +8,7 @@ body{
 .orange-bg {
     background:#F58021;
     width: 1920px;
+    position: fixed;
 }
 
 .header{
@@ -20,7 +21,7 @@ body{
     margin: 30px 0 0 260px ;
 }
 
-a{
+.header-nav-link{
     color: #000000;
     text-decoration: none ;
     font-size: 18px;
@@ -129,7 +130,12 @@ a{
     justify-content: center;
     border-radius: 10px;
     background: #F58021;
-    margin: -64px 0 0 1420px;
+    margin: 46px 0 0 1420px;
+    border: 0;
+}
+
+.live-btn-link{
+    text-decoration: none;
 }
 
 .live-bottom-text{
@@ -244,6 +250,9 @@ a{
 }
 
 .donation-content-button-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 74px;
     width: 74px;
     border-radius: 5px;
@@ -254,7 +263,6 @@ a{
 .donation-content-button-arrow-img{
     width: 40px;
     height: 30px;
-    margin: 22px 0 0 17px;
 }
 
 .news{
@@ -452,3 +460,226 @@ a{
     justify-content: space-between;
 }
 
+.popup{
+    position: fixed;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0px 0px 37px 7px rgba(34, 60, 80, 0.21);
+}
+
+.popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-body{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content{
+    background: #FFFFFF;
+    position: relative;
+    max-width: 920px;
+}
+
+.popup-area{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.popup-close{
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 10px;
+}
+
+.popup-close-bnt{
+    background: #F58021;
+    border: 0;
+}
+
+.content{
+    width: 920px;
+}
+
+.popup-header{
+    width: 920px;
+    height: 135px;
+    background: #F58021;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    font-weight: 500px;
+    color: #FFFFFF;
+}
+
+.popup-info{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    margin: 50px 0 0 123px;
+}
+
+.popup-line{
+    width: 920px;
+    border: 1px solid#000000;
+    margin: 10px 0 0 0;
+}
+
+.popup-donation{
+    width: 680px;
+    display: block;
+}
+
+span{
+    color: #00A092;
+}
+
+.donation-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    margin: 40px 0 0 120px;
+}
+
+.btnSum{
+    height: 65px;
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 120px;
+}
+
+.btnSum-btn{
+    border-radius: 5px;
+    width: 80px;
+    background: #00A092;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    opacity: 40%;
+    border: 0;
+}
+
+.btnSum-btn:active{
+    opacity: 100%;
+}
+
+.btnOther{
+    height:65px ;
+    width: 680px;
+    display: flex;
+    margin: 37px 0 0 120px;
+}
+
+.btnOther-btn{
+    width: 200px;
+    background: #00A092;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    opacity: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px 0 0 ;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btnOther-btn:active{
+    opacity: 100%;
+}
+
+.btnOther-box{
+    width: 200px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.btnPet{
+    display: flex;
+    justify-content: space-between;
+    width: 680px;
+    height: 65px;
+    margin: 40px 0 0 120px;
+}
+
+.btnPet-btn{
+    width: 200px;
+    background: #00A092;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    opacity: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btnPet-btn:active{
+    opacity: 100%;
+}
+
+.btnPet-box{
+    display: flex;
+    justify-content: center;
+    width: 440px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.checkbox{
+    display: flex;
+    margin: 40px 0 0 120px;
+}
+
+.checkbox-btn{
+    height: 30px;
+    width: 30px;
+}
+
+.checkbox-btn:default{
+    height:30px ;
+    width: 30px;
+    border: 1px solid #000000;
+    border-radius: 0;
+}
+.checkbox-text{
+    height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    margin:0 0 0 20px;
+    display: flex;
+    align-items: center;  
+}
