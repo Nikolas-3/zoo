@@ -66,6 +66,10 @@ a{
     margin: 42px 0 0 600px;
 }
 
+.header-nav-about{
+    color: #00A092;
+}
+
 .header-icons{
     display: flex;
     margin: 35px 0 0 130px;
